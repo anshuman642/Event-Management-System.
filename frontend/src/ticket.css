@@ -1,0 +1,11 @@
+.modal-backdrop{position:fixed;inset:0;z-index:30;background:#11170dbd;display:grid;place-items:center;padding:20px}
+.ticket-modal{width:min(390px,100%);background:#fff;border-radius:13px;padding:31px 27px 25px;text-align:center;position:relative;box-shadow:0 20px 70px #0003}
+.modal-close{position:absolute;right:13px;top:13px;border:0;background:#f0f2eb;width:30px;height:30px;display:grid;place-items:center;border-radius:50%;color:#60665a}
+.ticket-modal-mark{width:34px;height:34px;border-radius:11px;background:var(--lime);display:grid;place-items:center;margin:0 auto 15px}
+.ticket-modal .eyebrow{justify-content:center;margin-bottom:8px;font-size:8px}
+.ticket-modal h2{font:700 21px/1.3 Manrope;margin:0 15px 7px;letter-spacing:-.7px}
+.ticket-modal>p{font-size:10px;color:#7a8175;margin:0 0 16px}
+.ticket-modal .ticket-qr{width:174px;height:174px;object-fit:contain;display:block;margin:11px auto;border:1px solid var(--line);border-radius:8px}
+.ticket-id{font:700 11px Manrope;letter-spacing:1px;color:#687b37}
+.ticket-modal .ticket-attendee{margin:6px 0 18px}
+.success-banner button{margin-left:auto;border:0;background:none;color:#687b37;font-size:20px;line-height:1}
